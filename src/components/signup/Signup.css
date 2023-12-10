@@ -1,0 +1,88 @@
+/* SignUp.css */
+.sign-up-container {
+  position: relative;
+   top: 150px; left: 0; width: 100%; height: 100%; display: flex;
+    justify-Content: center;
+     align-Items: center ;
+  }
+  
+  .blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  filter: blur(10px);
+  }
+  
+  .sign-up-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90vh;
+    width: 70vh;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1; /* Make sure the sign-up box appears above the blurred background */
+  }
+  
+  .sign-up-box h2 {
+    margin-bottom: 200px;
+  }
+  
+  .sign-up-box a {
+    display: block;
+    margin-top: 20px;
+  }
+  #loginbtn{
+    height: 800cm;
+  }
+  #h{
+    font-size: 60px;
+
+    
+  }
+  input {position: relative;
+    width: 100%;
+    top:300px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 120px;
+    height: 150px;
+  }
+  #user{position: relative;
+    top:250px;
+    right: 600px;
+    display: block;
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+  #pass{position: relative;
+    top:290px;
+    right: 600px;
+    display: block;
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+  .btn-dark{
+    position: relative;
+    height: 150px;
+    width: 300px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 1cm;
+    top: 400px;
+    background-color: orangered;
+  }
+  .btn-dark p{
+    color: white;
+  }
+  .btn-dark:hover,.btn-dark p:hover{background-color: white;
+    color: rgb(10, 8, 8);
+    
+  }

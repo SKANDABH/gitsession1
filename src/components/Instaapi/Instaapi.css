@@ -1,0 +1,40 @@
+.Instaapi{
+    position:relative;
+    height: 100vh;
+    width:229vh;
+    background-image: linear-gradient(to right, #c7dff8 0%, #61a1f4 51%, #24a7f8 100%);
+}
+.Insta-data1{
+    
+    height: 1300px;
+    width: 1200px;
+    position: relative;
+    top:400px;
+    left:400px;
+
+}
+.Insta-data2{
+    
+    height: 1300px;
+    width: 1200px;
+    position: absolute;
+    left:1900px;
+    top: 400px;
+    
+
+}
+.Insta-data3{
+    
+    height: 1300px;
+    width: 1200px;
+    position: absolute;
+    top:400px;
+    left:3400px;
+
+}
+.Instaapi h1{
+    font-size: 200px;
+    position: absolute;
+    top:0;
+    right:1600px;
+}

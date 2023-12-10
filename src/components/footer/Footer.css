@@ -1,0 +1,57 @@
+.footer{position:relative;
+    height: 40vh;
+    width:229vh;
+    background-color: antiquewhite;
+    bottom:0%;
+}
+.footer-logo{
+    height: 50px;
+    width: 1000px;
+}
+.footer-media img{position: relative;
+    height:150px;
+    width: 150px;
+    top:450px;
+    left:41.5%;
+    gap:50px;
+    margin: 15px;
+}
+.footer-media img:hover{background-color:yellow;
+   
+}
+.footer-copyright{position: relative;
+    display:flex;
+    justify-content:Center;
+    align-items: center;
+    top:480px;
+    left: 1005px;
+}
+#footerpara{font-size: 40px;
+
+}
+hr{height: 20px;}
+h2{position: relative;
+    font-size: 55px;
+top: 280px;
+left: 20px;
+}
+.footer-links li{
+    position: relative;
+    right:300px;
+    top:-100px;
+    display: flex;
+    list-style: none;
+    font-size: 80px;
+    margin: 100px;
+    float:right;
+}
+.footer-links li:hover{
+    color: chocolate;
+}
+.footer-links li.hovered a{
+    color: #00f; /* Change the color to your desired hover color */
+    /* Add additional styling for the hovered state */
+  }
+.navbar .navbar-menu .hovered a {
+    color: black;
+  }
